@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+    <title>FakeGoogle Advanced Search</title>
+</head>
+<body>
+    <h1>Looking for something specific?</h1>
+
+    <hr>
+    <main>
+        <section id="leftS">
+            <h2>Looking for pages when you're...</h2>
+            <form action="https://www.google.com/search?as_q">
+            
+                <div class="searchLine">
+                    <label for="criteria1">Saying include all of these words?</label>
+                        <input id="criteria1" type="text" name="as_q" >
+                </div>
+                <div class="searchLine">
+                    <label for="criteria2">Trying to search for this specific thing:</label>
+                        <input id="criteria2" type="text" name="as_epq" >
+                </div>
+                <div class="searchLine">
+                    <label for="criteria3">Searching for something that includes any of these words:</label>
+                        <input id="criteria3" type="text" name="as_oq" >
+                </div>
+                <div class="searchLine">
+                    <label for="criteria4">Searching for anything excluding this word or phrase:</label>
+                        <input id="criteria4" type="text" name="as_eq" >
+                </div>
+                <div class="searchLine">
+                    <label for="criteria5"> Looking for this specific range of numbers:</label>
+                    <div id="numbSearch">
+                        <input id="criteria5" type="text" name="as_nlo" >
+                        <p>to</p>
+                        <input type="text" name="as_nhi" >
+                    </div>
+                </div>
+                    <br>
+                    <br>
+                    <button type="submit"> Preform Advanced Search! </button>
+                </form>
+            </section>
+        <section id="rightS">
+            <h2>
+                You can also do this in a normal google search bar by searching the folloing way:
+            </h2>
+            <p class="diy">
+                Type only the important words or phrases.
+            </p>
+            <p class="dui">
+                Woah look at this
+            </p>
+            <p class="diy">
+               Puting the word or phrase you want to show in quotation marks.
+            </p>
+            <p class="dui">
+                "Woah" <span>or</span> "Look at this"
+            </p>
+            <p class="diy">
+                Typing an "OR" between each word.
+            </p>
+            <p class="dui">
+                Woah OR Look at this
+            </p>
+            <p class="diy">
+                Placing a dash before the word to signify you want it without this word.
+            </p>
+            <p class="dui">
+                -Woah look at -this
+            </p>
+            <p class="diy">
+                Placing numbers with 2 dots inbetween them.
+            </p>
+            <p class="dui">
+                10 ..21
+            </p>
+        </section>
+    </main>
+</body>
+</html>

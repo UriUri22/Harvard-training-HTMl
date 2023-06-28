@@ -1,0 +1,115 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Belanosima', sans-serif;
+}
+
+body {
+  background-color: rgb(123, 123, 123);
+  height: 100vh;
+  overflow: hidden;
+}
+ 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px;
+  height: 40px;
+
+ }
+
+ul {
+  display: flex;
+  font-size: 8px;
+  align-items: flex-start;
+  list-style: none;
+  width: 100vw;
+  height: 8vh;
+ }
+  
+  li {
+    text-align: center;
+    padding: 12px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(14, 0, 0);
+  }
+
+  li a:hover {
+    text-decoration: underline;
+    color: rgb(76, 0, 114);
+  }
+  img {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 80px;
+  }
+
+.right {
+  justify-content: flex-start;
+}
+.left {
+  justify-content: flex-end;
+}
+
+#search {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Sbar {
+  width: 500px;
+  height: 45px;
+  padding-left: 10px;
+}
+  #Sbar:hover {
+    box-shadow: 0px 1px 2px 1px rgba(91, 0, 0, 0.4);
+  }
+  #Sbar:focus {
+    outline: none;
+  }
+
+.Sbutton {
+  width: 350px;
+  margin: auto;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+  button {
+    border: 1px solid transparent;
+    padding: 6px 10px;
+    border-radius: 5px;
+    background-color: rgb(108, 35, 35);
+  }
+  button:hover {
+    border: 1px solid rgb(77, 0, 0);
+    box-shadow: 0 0 2px 1px rgba(91, 0, 0, 0.4)
+  }
+  input[type="submit"]{
+    color: white;
+    background-color: rgb(108, 35, 35);
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
